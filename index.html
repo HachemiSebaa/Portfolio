@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Hachemi SEBAA</title>
+		<link href="style.css" rel="stylesheet"/>
+		<link href="responsive.css" rel="stylesheet"/>
+	</head>
+	<body class="imgParcours">
+		<nav class="navbar">
+			<ul class="nav-list">
+				<li><a href="#presentation">Présentation</a></li>
+				<li><a href="#monParcours">Mon Parcours</a></li>
+				<li><a href="#monAlternance">Mon Alternance</a></li>
+				<li><a href="#contact">Me Contacter</a></li>
+			</ul>
+		</nav>
+		<!-- Qui suis-je -->
+			<section id="presentation">
+				<div class="quiSuisJe">
+					<h2>👔 Présentation 👔</h2>
+					<div class="presentation">
+						<div class="imgParcours">
+							<header>
+								<br><br><br><br><br>
+								<div class="BSMP">Bienvenue sur mon portfolio !</div>
+								<br><br>
+								<div id="container">
+									<div class="gauche">
+										<h4><strong>Sécurité Éléctronique</strong></h4>
+										<img src="img/securite.jpg" alt="sécurité">
+									</div>
+									<div id="PDP">
+										<img src="img/team/hachemi.jpg" height="500" width="500" alt="Photo de profil">
+									</div>
+									<div class="droite">
+										<h4><strong>Informatique Systèmes et Réseaux</strong> </h4>
+										<img src="img/SISR.png" alt="SISR">
+									</div>
+								</div>
+								<br><br><br><br>
+							</header>
+							<p>
+								Étant initialement doté d'une bonne capacité d'adaptation qui m'aide à gérer des situations aussi
+								différentes les unes que les autres, mes études supérieures et mon expérience professionnelle
+								m'ont également permis d'acquérir des compétences interculturelles, relationnelles et techniques.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Parcours -->
+				<h2 id="monParcours">📖 Parcours 📖</h2>
+				<div class="parcours">
+					<div class="imgParcours">
+						<img src="img/about/1.jpg">
+						<h4>2014 - 2021</h4>
+						<h4>Mon parcours en langues</h4>
+							<p>
+								Après mon baccalauréat série langues étrangères, j'ai entamé une licence en langue et littérature anglaises à l'université d'Alger
+								avant de valider par la suite une licence un master 1 en LEA avec spécialisation en Langues et Gestion à l'université Jean Moulin - Lyon 3.
+							</p>
+					</div>
+
+					<div class="imgParcours">
+						<img src="img/about/3.jpg">
+						<h4>2016 - 2019</h4>
+						<h4>Jobs étudiant</h4>
+							<p>
+								Pendant trois ans, j'ai effectué des jobs à temps partiel. Ces emplois m'ont permis de financer mes études, 
+								mais aussi de développer mes compétences en communication et en travail d'équipe. Je suis reconnaissant pour cette 
+								expérience, qui m'a appris l'importance de l'organisation, de la discipline et de la rigueur.
+							</p>
+					</div>
+				</div>
+
+				<div class="parcours">
+					<div class="imgParcours">
+						<img src="img/about/4.jpg">
+						<h4>2019 - 2022</h4>
+						<h4>Technicien de dispositifs médicaux</h4>
+							<p>
+								En tant que technicien de dispositifs médicaux pendant 3 ans, j'ai acquis des compétences techniques et une expérience précieuse 
+								dans le secteur de la santé. J'ai travaillé en équipe, géré des projets et communiqué efficacement avec les clients et les partenaires.
+							</p>
+					</div>
+
+					<div class="imgParcours">
+						<img src="img/about/2.jpg">
+						<h4>Juillet 2022</h4>
+						<h4>Alternance BTS SIO</h4>
+							<p>
+								En juillet 2022, j'ai commencé une alternance en BTS SIO, ce qui représente pour moi le début d'une belle aventure 
+								professionnelle. Je suis ravi de pouvoir continuer à apprendre et à acquérir de nouvelles compétences tout en travaillant 
+								dans un environnement stimulant. Je suis convaincu que cette expérience va me permettre de me développer professionnellement 
+								et de réaliser mes objectifs à long terme.
+							</p>
+					</div>
+				</div>
+
+					<section>
+						<h2 id="monAlternance">🚀 Mon Alternance 🚀</h2>
+						<div class="imgParcours">
+							<div id="container">
+								<div class="gauche">
+									<img src="img/team/1.jpg">
+									<h4>MY LINKS</h4>
+								</div>
+								<h3>Je monte en compétence grâce à leur accompagnement</h3>
+								<div class="droite">
+									<img src="img/team/3.jpg">
+									<h4>SCIENCES U - LYON </h4>
+								</div>
+							</div>
+						</div>
+					</section>
+			
+	<!-- Contact-->
+	<div>
+		<h2 class="imgParcours">✉️ Contactez-moi ✉️</h2>
+	</div>
+	<div id="contact">
+		<form action="sendmail.php" method="post">
+			<div class="imgParcours">
+				<br><br><br><br>
+				<div>
+					<div class="coordo">
+						<!-- nom input-->
+						<input id="name" name="name" type="text" placeholder="Votre nom*"/>
+						<!-- mail input-->
+						<input id="email" name="email" type="email" placeholder="Votre adresse mail *"/>
+						<!-- tél input-->
+						<input id="phone" name="phone" type="tel" placeholder="Votre numéro de téléphone *"/>
+					</div>
+					<div>
+						<!-- Message input-->
+						<textarea id="message" name="message" placeholder="Votre message *"></textarea>
+					</div>
+				</div>
+			</div>
+			<br>
+			<!-- Bouton envoyer-->
+			<div><button id="submitButton" type="submit">Envoyer message</button></div>
+		</form>
+		<br><br>
+	</div>
+	</body>
+
+	<!-- Footer-->
+	<footer>
+			<div id="container">				
+			<div class="gauche">Copyright &copy; Hachemi SEBAA 2022</div>			
+			<div class="droite"> <a href="https://www.linkedin.com/in/hachemisebaa/">
+				<div class="linkedin-logo">
+				  <span>LinkedIn</span>
+				</div>
+			  </a>
+			</div>
+	</footer>
+</html>
